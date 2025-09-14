@@ -4,22 +4,56 @@
   <meta charset="UTF-8">
   <title>Erfan Zamani - Personal Website</title>
   <link rel="stylesheet" href="style.css">
+  <style>
+    html {
+      scroll-behavior: smooth;
+    }
+  </style>
 </head>
 <body>
+
+  <!-- Navigation Bar -->
+  <nav class="navbar">
+    <ul>
+      <li><a href="#about">About</a></li>
+      <li><a href="#education">Education</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#interests">Interests</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
   <div class="container">
     <header>
       <img src="8002.jpg" alt="Erfan's Profile Photo" class="profile-img">
       <h1>Erfan Zamani</h1>
     </header>
 
-    <section class="about">
+    <section id="about" class="about">
       <h2>About Me</h2>
       <p>
         My name is Erfan Zamani and I'm currently 22 years old. I'm studying computer engineering in Mohaghegh Ardabil University and this is my third year. This website is developed as a project for one of my classes.
       </p>
     </section>
 
-    <section class="skills">
+    <section id="education" class="education">
+      <h2>Education</h2>
+      <ul>
+        <li>
+          <strong>Bachelor of Computer Engineering</strong><br>
+          Mohaghegh Ardabili University, Ardabil, Iran<br>
+          2021 – Present
+        </li>
+        <li>
+          <strong>Diploma in Mathematics and Physics</strong><br>
+          Shahid Beheshti school in Ardabil<br>
+          2017 – 2020
+        </li>
+      </ul>
+    </section>
+
+    <section id="skills" class="skills">
       <h2>Skills</h2>
       <ul>
         <li>Python</li>
@@ -32,17 +66,55 @@
       </ul>
     </section>
 
-    <section class="contact">
-      <h2>Contact</h2>
-      <p>Email: <a href="mailto:fanzm1316@gmail.com">fanzm1316@gmail.com</a></p>
-      <p>Phone: +98 914 459 7925</p>
-      <p>Social: | 
-        <a href="https://github.com/erfnzmn">GitHub</a> | 
-        <a href="https://Instagram.com/erfnzmn">Instagram</a>
+    <section id="projects" class="projects">
+      <h2>Projects</h2>
+      <ul>
+        <li>
+          <strong>Front-End</strong><br>
+          <ul>
+            <li>Personal website</li>
+            <li>Udemy.com</li>
+            <li>Groupon website</li>
+            <li>micro.com</li>
+            <li>eventbrite.com</li>
+            <li>Uxcel.com</li>
+          </ul>
+        </li>
+        <li>
+          <strong>Blog Platform (Django)</strong><br>
+          full-featured blog applications with user authentication and admin panel programed with Django.
+        </li>
+        <li>
+          <strong>Python and c</strong><br>
+          Mathematical and logical programs using python, c++ and c#.
+        </li>
+        <li>
+          <strong>.Net</strong><br>
+          .Net forms and applications
+        </li>
+      </ul>
+    </section>
+
+    <section id="interests" class="interests">
+      <h2>Interests</h2>
+      <p>
+        I'm passionate about AI and web development. I enjoy working on side projects, exploring new technologies, 
+        and solving algorithmic challenges. In my free time, I also like working out, playing boared games and video games, 
+        and watching movies.
       </p>
     </section>
 
-    <section class="form-section">
+    <section id="contact" class="contact">
+      <h2>Contact</h2>
+      <p>Email: <a href="mailto:fanzm1316@gmail.com">Email</a></p>
+      <p>Phone: PHONE NUMBER</p>
+      <p>Social: | 
+        <a href="GITHUB">GitHub</a> | 
+        <a href="INSTAGRAM">Instagram</a>
+      </p>
+    </section>
+
+    <section id="form" class="form-section">
       <h2>Contact Form</h2>
       <form action="#" method="post">
         <input type="text" name="name" placeholder="Your Name" required>
